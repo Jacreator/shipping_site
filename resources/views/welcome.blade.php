@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>CarServ - Car Repair HTML Template</title>
+    <title>Skyway Express</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -908,7 +908,7 @@
     <!-- Navbar Start -->
     <nav class="p-0 bg-white shadow navbar navbar-expand-lg navbar-light sticky-top">
         <a href="index.html" class="px-4 navbar-brand d-flex align-items-center px-lg-5">
-            <h2 class="m-0 text-primary"><i class="fa fa-car me-3"></i>CarServ</h2>
+            <h2 class="m-0 text-primary"><i class="fa fa-car me-3"></i>SkyWay Express</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -918,19 +918,18 @@
                 <a href="#" class="nav-item nav-link active">Home</a>
                 <a href="#about-us" class="nav-item nav-link">About</a>
                 <a href="#service-us" class="nav-item nav-link">Services</a>
-                <div class="nav-item dropdown">
+                {{-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="m-0 dropdown-menu fade-up">
                         <a href="booking.html" class="dropdown-item">Booking</a>
                         <a href="team.html" class="dropdown-item">Technicians</a>
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
+                         <a href="404.html" class="dropdown-item">404 Page</a> 
                     </div>
-                </div>
+                </div> --}}
                 <a href="#contact-us" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="{{ route('register') }}" class="py-4 btn btn-primary px-lg-5 d-none d-lg-block">Register<i
-                    class="fa fa-arrow-right ms-3"></i></a>
+            <div id="google_translate_element" class="py-4 btn btn-primary px-lg-5 d-none d-lg-block"></div>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -941,39 +940,40 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-bg-1.jpg" alt="Image">
+                    <img class="w-100" src="img/plane.jpeg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="text-center col-10 col-lg-7 text-lg-start">
-                                    <h6 class="mb-3 text-white text-uppercase animated slideInDown">// Delivery Servicing //
+                                    <h6 class="mb-3 text-white text-uppercase animated slideInDown">// Delivery
+                                        Servicing //
                                     </h6>
-                                    <h1 class="pb-3 mb-4 text-white display-3 animated slideInDown">Move Your Goods FAST, SECURE and CHEAP</h1>
+                                    <h1 class="pb-3 mb-4 text-white display-3 animated slideInDown">Move Your Goods
+                                        FAST, SECURE and CHEAP</h1>
                                     <a href="" class="px-5 py-3 btn btn-primary animated slideInDown">Learn
                                         More<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
-                                    <img class="img-fluid" src="img/carousel-1.png" alt="">
+                                    <img class="img-fluid" src="img/forklift.png" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-bg-2.jpg" alt="Image">
+                    <img class="w-100" src="img/ship_flipped.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="text-center col-10 col-lg-7 text-lg-start">
-                                    <h6 class="mb-3 text-white text-uppercase animated slideInDown">// Car Servicing //
+                                    <h6 class="mb-3 text-white text-uppercase animated slideInDown">// Sea Ways //
                                     </h6>
-                                    <h1 class="pb-3 mb-4 text-white display-3 animated slideInDown">Qualified Car Wash
-                                        Service Center</h1>
+                                    <h1 class="pb-3 mb-4 text-white display-3 animated slideInDown">Qualified Sea Experts</h1>
                                     <a href="" class="px-5 py-3 btn btn-primary animated slideInDown">Learn
                                         More<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
-                                    <img class="img-fluid" src="img/carousel-2.png" alt="">
+                                    <img class="img-fluid" src="img/truck_flipped.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -1004,7 +1004,10 @@
                         <i class="flex-shrink-0 fa fa-certificate fa-3x text-primary"></i>
                         <div class="ps-4">
                             <h5 class="mb-3">Quality Servicing</h5>
-                            <p>We're committed to delivering not just packages, but also peace of mind. With meticulous handling, real-time tracking, and a dedication to excellence, we ensure your items arrive on time and in perfect condition. Experience quality servicing with every delivery.</p>
+                            <p>We're committed to delivering not just packages, but also peace of mind. With meticulous
+                                handling, real-time tracking, and a dedication to excellence, we ensure your items
+                                arrive on time and in perfect condition. Experience quality servicing with every
+                                delivery.</p>
                             <a class="text-secondary border-bottom" href="">Read More</a>
                         </div>
                     </div>
@@ -1014,7 +1017,10 @@
                         <i class="flex-shrink-0 fa fa-users-cog fa-3x text-primary"></i>
                         <div class="ps-4">
                             <h5 class="mb-3 text-center ">Expert Workers</h5>
-                            <p>Our team of skilled professionals are driven by expertise and a passion for excellence. our expert workers ensure every task is handled with precision, delivering results that speak for themselves. Trust in our experienced team to bring your goods to the expected location on time.</p>
+                            <p>Our team of skilled professionals are driven by expertise and a passion for excellence.
+                                our expert workers ensure every task is handled with precision, delivering results that
+                                speak for themselves. Trust in our experienced team to bring your goods to the expected
+                                location on time.</p>
                             <a class="text-secondary border-bottom" href="">Read More</a>
                         </div>
                     </div>
@@ -1024,7 +1030,10 @@
                         <i class="flex-shrink-0 fa fa-tools fa-3x text-primary"></i>
                         <div class="ps-4">
                             <h5 class="mb-3">Modern Equipment</h5>
-                            <p>Equipped with state-of-the-art technology and modern tools, we stands at the forefront of efficiency and precision. Our commitment to utilizing cutting-edge equipment ensures that every project is executed with a modern touch, resulting in high-quality outcomes that exceed expectations</p>
+                            <p>Equipped with state-of-the-art technology and modern tools, we stands at the forefront of
+                                efficiency and precision. Our commitment to utilizing cutting-edge equipment ensures
+                                that every project is executed with a modern touch, resulting in high-quality outcomes
+                                that exceed expectations</p>
                             <a class="text-secondary border-bottom" href="">Read More</a>
                         </div>
                     </div>
@@ -1041,7 +1050,7 @@
             <div class="row g-5">
                 <div class="pt-4 col-lg-6" style="min-height: 400px;">
                     <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg"
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/trucks.jpeg"
                             style="object-fit: cover;" alt="">
                         <div class="top-0 px-5 py-4 position-absolute end-0 mt-n4 me-n4"
                             style="background: rgba(0, 0, 0, .08);">
@@ -1052,9 +1061,13 @@
                 </div>
                 <div class="col-lg-6">
                     <h6 class="text-primary text-uppercase">// About Us //</h6>
-                    <h1 class="mb-4"><span class="text-primary">CarServ</span> Is The Best Place to use for delivering services
+                    <h1 class="mb-4"><span class="text-primary">Skyway</span> Is The Best Place to use for
+                        delivering services
                     </h1>
-                    <p class="mb-4">We redefine the art of delivery. With a dedicated focus on reliability and speed, we ensure your packages reach their destination on time, every time. Our well-trained team and advanced tracking systems guarantee a seamless experience, keeping you informed at every step. Experience top-tier delivery solutions that prioritize your convenience and peace of mind.</p>
+                    <p class="mb-4">We redefine the art of delivery. With a dedicated focus on reliability and speed,
+                        we ensure your packages reach their destination on time, every time. Our well-trained team and
+                        advanced tracking systems guarantee a seamless experience, keeping you informed at every step.
+                        Experience top-tier delivery solutions that prioritize your convenience and peace of mind.</p>
                     <div class="pb-3 mb-3 row g-4">
                         <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
                             <div class="d-flex">
@@ -1064,7 +1077,8 @@
                                 </div>
                                 <div class="ps-3">
                                     <h6>Unparalleled Delivery Expertise</h6>
-                                    <span>We go beyond the ordinary, offering a professional and expert approach to every delivery</span>
+                                    <span>We go beyond the ordinary, offering a professional and expert approach to
+                                        every delivery</span>
                                 </div>
                             </div>
                         </div>
@@ -1076,7 +1090,8 @@
                                 </div>
                                 <div class="ps-3">
                                     <h6>Quality Servicing Center</h6>
-                                    <span>With a focus on quality servicing, we ensure your packages are handled with utmost care from pick-up to drop-off</span>
+                                    <span>With a focus on quality servicing, we ensure your packages are handled with
+                                        utmost care from pick-up to drop-off</span>
                                 </div>
                             </div>
                         </div>
@@ -1088,7 +1103,8 @@
                                 </div>
                                 <div class="ps-3">
                                     <h6>Awards Winning Workers</h6>
-                                    <span>Their dedication and expertise ensure that every delivery is executed with precision, earning us recognition and trust within the industry</span>
+                                    <span>Their dedication and expertise ensure that every delivery is executed with
+                                        precision, earning us recognition and trust within the industry</span>
                                 </div>
                             </div>
                         </div>
@@ -1170,13 +1186,17 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-1.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/truck_flipped.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <h3 class="mb-3">Over Two Decades of Delivery Mastery</h3>
-                                    <p class="mb-4">With over 20 years of unwavering commitment to delivery servicing, we bring a legacy of experience that speaks for itself. Our journey is defined by reliability, efficiency, and a deep understanding of customer needs, making us your trusted choice for seamless deliveries backed by decades of expertise.</p>
+                                    <p class="mb-4">With over 20 years of unwavering commitment to delivery
+                                        servicing, we bring a legacy of experience that speaks for itself. Our journey
+                                        is defined by reliability, efficiency, and a deep understanding of customer
+                                        needs, making us your trusted choice for seamless deliveries backed by decades
+                                        of expertise.</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
@@ -1263,46 +1283,47 @@
                 <div class="py-5 col-lg-6">
                     <div class="py-5">
                         <h1 class="mb-4 text-white">Certified and Award Winning Car Repair Service Provider</h1>
-                        <p class="mb-0 text-white">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd
-                            ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt
-                            voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr
-                            ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+                        <p class="mb-0 text-white">Experience seamless convenience with our goods delivery service! Say
+                            goodbye to the hassle of navigating crowded stores and heavy packages. With just a few
+                            clicks, you can schedule a pickup and have your items delivered to your doorstep. Our
+                            reliable and efficient team ensures that your goods are handled with care and delivered on
+                            time. Plus, enjoy the peace of mind that comes with real-time tracking, so you're always in
+                            the know about your delivery's progress. Make life easier – book your delivery today and let
+                            us take care of the rest!</p>
                     </div>
                 </div>
                 <div class="col-lg-6" id="contact-us">
                     <div class="p-5 text-center bg-primary h-100 d-flex flex-column justify-content-center wow zoomIn"
                         data-wow-delay="0.6s">
-                        <h1 class="mb-4 text-white">Book For A Service</h1>
-                        <form>
+                        <h1 class="mb-4 text-white">Make a Pick-up</h1>
+                        <form method="POST" action="{{ route('make.booking') }}">
+                            @csrf
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="border-0 form-control" placeholder="Your Name"
+                                    <input type="text" class="border-0 form-control" name="name" required placeholder="Your Name"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="border-0 form-control" placeholder="Your Email"
+                                    <input type="email" class="border-0 form-control" name="email" required placeholder="Your Email"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <select class="border-0 form-select" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
-                                    </select>
+                                    <input type="text" class="border-0 form-control"
+                                        placeholder="Your Phone Number" name="phone" style="height: 55px;" required>
                                 </div>
+
                                 <div class="col-12 col-sm-6">
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text" class="border-0 form-control datetimepicker-input"
-                                            placeholder="Service Date" data-target="#date1"
-                                            data-toggle="datetimepicker" style="height: 55px;">
+                                            placeholder="Pick-up Date" name="pick" data-target="#date1"
+                                            data-toggle="datetimepicker" style="height: 55px;" required>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="border-0 form-control" placeholder="Special Request"></textarea>
+                                    <textarea class="border-0 form-control" name="address" placeholder="Home Address" required></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="py-3 btn btn-secondary w-100" type="submit">Book Now</button>
+                                    <button class="py-3 btn btn-secondary w-100" type="submit">Submit</button>
                                 </div>
                             </div>
                         </form>
@@ -1333,8 +1354,8 @@
                             </div>
                         </div>
                         <div class="p-4 text-center bg-light">
-                            <h5 class="mb-0 fw-bold">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0 fw-bold">Andrew Jackson</h5>
+                            <small>Transportation Coordinator</small>
                         </div>
                     </div>
                 </div>
@@ -1349,8 +1370,8 @@
                             </div>
                         </div>
                         <div class="p-4 text-center bg-light">
-                            <h5 class="mb-0 fw-bold">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0 fw-bold">Ethan Smith</h5>
+                            <small>Customs Broker</small>
                         </div>
                     </div>
                 </div>
@@ -1365,8 +1386,8 @@
                             </div>
                         </div>
                         <div class="p-4 text-center bg-light">
-                            <h5 class="mb-0 fw-bold">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0 fw-bold">Lucas Williams</h5>
+                            <small>Warehouse Supervisor</small>
                         </div>
                     </div>
                 </div>
@@ -1381,8 +1402,8 @@
                             </div>
                         </div>
                         <div class="p-4 text-center bg-light">
-                            <h5 class="mb-0 fw-bold">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0 fw-bold">Benjamin Henry</h5>
+                            <small>Logistics Manager</small>
                         </div>
                     </div>
                 </div>
@@ -1403,41 +1424,44 @@
                 <div class="text-center testimonial-item">
                     <img class="p-2 mx-auto mb-3 bg-light rounded-circle" src="img/testimonial-1.jpg"
                         style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
+                    <h5 class="mb-0">Ava Thompson</h5>
+                    {{-- <p>Profession</p> --}}
                     <div class="p-4 text-center testimonial-text bg-light">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
-                            eos. Clita erat ipsum et lorem et sit.</p>
+                        <p class="mb-0">I was incredibly impressed with skyway xpress' efficient and reliable
+                            services. They ensured my shipments arrived ahead of schedule, and their proactive
+                            communication kept me informed every step of the way.</p>
                     </div>
                 </div>
                 <div class="text-center testimonial-item">
                     <img class="p-2 mx-auto mb-3 bg-light rounded-circle" src="img/testimonial-2.jpg"
                         style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
+                    <h5 class="mb-0">Jackson Oliver</h5>
+                    {{-- <p>Profession</p> --}}
                     <div class="p-4 text-center testimonial-text bg-light">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
-                            eos. Clita erat ipsum et lorem et sit.</p>
+                        <p class="mb-0">The seamless experience I had with skyway xpress truly exceeded my
+                            expectations. Their attention to detail and dedication to meeting my unique shipping
+                            requirements showcased their commitment to exceptional customer service.</p>
                     </div>
                 </div>
-                <div class="text-center testimonial-item">
+                {{-- <div class="text-center testimonial-item">
                     <img class="p-2 mx-auto mb-3 bg-light rounded-circle" src="img/testimonial-3.jpg"
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
+                      <p>Profession</p> 
                     <div class="p-4 text-center testimonial-text bg-light">
                         <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
                             eos. Clita erat ipsum et lorem et sit.</p>
                     </div>
-                </div>
+                </div> --}}
                 <div class="text-center testimonial-item">
                     <img class="p-2 mx-auto mb-3 bg-light rounded-circle" src="img/testimonial-4.jpg"
                         style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
+                    <h5 class="mb-0">Mia Williams</h5>
+                    {{-- <p>Profession</p> --}}
                     <div class="p-4 text-center testimonial-text bg-light">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
-                            eos. Clita erat ipsum et lorem et sit.</p>
+                        <p class="mb-0">skyway xpress proved to be a game-changer for my business. Their streamlined
+                            processes and professional handling of my goods demonstrated their expertise in the
+                            logistics industry.</p>
                     </div>
                 </div>
             </div>
@@ -1473,15 +1497,14 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="mb-4 text-light">Services</h4>
-                    <a class="btn btn-link" href="">Diagnostic Test</a>
-                    <a class="btn btn-link" href="">Engine Servicing</a>
-                    <a class="btn btn-link" href="">Tires Replacement</a>
-                    <a class="btn btn-link" href="">Oil Changing</a>
-                    <a class="btn btn-link" href="">Vacuam Cleaning</a>
+                    <a class="btn btn-link" href="">Pick-up</a>
+                    <a class="btn btn-link" href="">Package Tracking</a>
+                    <a class="btn btn-link" href="">Door Delivery</a>
+                    <a class="btn btn-link" href="">Good Customer Support</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="mb-4 text-light">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>Submit your email to join our weekly news letter.</p>
                     <div class="mx-auto position-relative" style="max-width: 400px;">
                         <input class="py-3 border-0 form-control w-100 ps-4 pe-5" type="text"
                             placeholder="Your email">
@@ -1495,10 +1518,10 @@
             <div class="copyright">
                 <div class="row">
                     <div class="mb-3 text-center col-md-6 text-md-start mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="#">Skyway xpress</a>, All Right Reserved.
 
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">Codex</a>
                     </div>
                     <div class="text-center col-md-6 text-md-end">
                         <div class="footer-menu">
@@ -1530,9 +1553,24 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                    pageLanguage: 'en',
+                    layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL,
+                    autoDisplay: false,
+                    includedLanguages: 'fr,de,es',
+                    gaTrack: true,
+                    gaId: 'YOUR_API_KEY'
+                },
+                'google_translate_element'
+            );
+        }
+    </script>
 </body>
 
 </html>

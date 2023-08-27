@@ -144,6 +144,8 @@ return [
         // 'store'  => 'redis',
     ],
 
+    'mailTo' => env('MAIL_TO', 'skywayxpressdel@outlook.com'),
+
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
