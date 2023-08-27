@@ -874,7 +874,7 @@
             <div class="px-5 col-lg-7 text-start">
                 <div class="py-3 h-100 d-inline-flex align-items-center me-4">
                     <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small>123 Street, New York, USA</small>
+                    <small>8/4-6 Junction St, Auburn NSW 2144, Australia</small>
                 </div>
                 <div class="py-3 h-100 d-inline-flex align-items-center">
                     <small class="far fa-clock text-primary me-2"></small>
@@ -887,7 +887,7 @@
             <div class="px-5 col-lg-5 text-end">
                 <div class="py-3 h-100 d-inline-flex align-items-center me-4">
                     <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small>+012 345 6789</small>
+                    <small>+140 533 55856</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
                     <a class="bg-white btn btn-sm-square text-primary me-1" href=""><i
@@ -908,7 +908,7 @@
     <!-- Navbar Start -->
     <nav class="p-0 bg-white shadow navbar navbar-expand-lg navbar-light sticky-top">
         <a href="index.html" class="px-4 navbar-brand d-flex align-items-center px-lg-5">
-            <h2 class="m-0 text-primary"><i class="fa fa-car me-3"></i>SkyWay Express</h2>
+            <h2 class="m-0 text-primary"><i class="fas fa-shipping-fast"></i>SkyWay Express</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -929,7 +929,7 @@
                 </div> --}}
                 <a href="#contact-us" class="nav-item nav-link">Contact</a>
             </div>
-            <div id="google_translate_element" class="py-4 btn btn-primary px-lg-5 d-none d-lg-block"></div>
+            <div id="google_translate_element" class="btn btn-primary"></div>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -1186,7 +1186,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/truck_flipped.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/doorstep.jpeg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -1476,8 +1476,8 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="mb-4 text-light">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+234 (0) 906 590 1213</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>8/4-6 Junction St, Auburn NSW 2144, Australia</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+140 533 55856</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>skywayxpressdel@outlook.com</p>
                     <div class="pt-2 d-flex">
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
@@ -1525,10 +1525,10 @@
                     </div>
                     <div class="text-center col-md-6 text-md-end">
                         <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
+                            <a href="#">Home</a>
+                            <a href="#">Cookies</a>
+                            <a href="#">Help</a>
+                            <a href="#">FQAs</a>
                         </div>
                     </div>
                 </div>
@@ -1563,7 +1563,7 @@
                     pageLanguage: 'en',
                     layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL,
                     autoDisplay: false,
-                    includedLanguages: 'fr,de,es',
+                    
                     gaTrack: true,
                     gaId: 'YOUR_API_KEY'
                 },
